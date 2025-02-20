@@ -1,0 +1,8 @@
+<p>user-list works!</p>
+<a routerLink="/profile">profile</a>
+<p>hey {{name}}</p>
+<img [src]="imagePath">
+<button [disabled]="!isvalid" (click)="sendMessage()">Envoyer</button>
+<input type="text" name="message" [(ngModel)]="message">
+<p> {{message}}</p>
+<button (click)="sendMsg()">Envoyer</button>
